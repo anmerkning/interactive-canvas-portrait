@@ -11,7 +11,7 @@ import {
 } from "pixi.js";
 import { useEffect, useRef, useState, type RefObject } from "react";
 
-const DEBUG = false;
+const DEBUG = true;
 const VERTICES = 5;
 const SPEED = 2;
 const SCALE = 20;
