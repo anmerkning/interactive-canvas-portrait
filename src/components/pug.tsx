@@ -47,7 +47,9 @@ const Plane: React.FC<PlaneProps> = () => {
   const step = useRef(0);
 
   useEffect(() => {
-    Assets.load("http://localhost:5173/pug2.png").then((texture) => {
+    Assets.load(
+      "http://localhost:5173/interactive-canvas-portrait/pug2.png",
+    ).then((texture) => {
       setTexture(texture);
       setLoading(false);
     });
